@@ -1,0 +1,73 @@
+body
+{ 
+   margin-left:  0%; 
+   margin-right: 0%; 
+   font-family: sans-serif
+}
+
+h1, h2 {margin-top: 1em}
+h2, h3, h4, h5, h6 {margin-left: 0%}
+
+pre
+{
+   color: green; font-weight: bold;
+   white-space: pre; font-family: "Courier New", monospace;
+}
+
+tt {color: green}
+em {font-style: italic; font-weight: bold}
+strong {text-transform: uppercase; font-weight: bold}
+.navbar {text-align: center}
+
+.example
+{
+   color: rgb(153, 0, 51);
+   border: none;
+   padding: 0.5em;
+   width: 100%;
+   background-color: rgb(255,255,153);
+}
+
+pre.example
+{
+   font-family: "Lucida Console", "Courier New", monospace;
+   white-space: pre;
+}
+
+table
+{
+   font-family: sans-serif;
+   background: white;
+//   border: 0;
+//   border-style: none;
+   text-align: center;
+   border-collapse: separate;
+}
+
+th
+{
+   font-family: sans-serif;
+   color: rgb(255, 255, 255);
+   background: rgb(0, 128, 0);
+   padding: 3px;
+   text-align: center;
+//   border: 0;
+//   border-width: 0px;
+//   border-style: solid;
+   margin: 0px;
+   text-align: center;
+}
+
+td
+{
+   font-family: sans-serif;
+   color: rgb(255, 255, 255);
+   background: rgb(0, 64, 0);
+   padding: 3px;
+   text-align: center;
+//   border: 0;
+//   border-width: 0;
+}
+
+input {text-align: center;}
+select {text-align: center;}
